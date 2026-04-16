@@ -13,7 +13,7 @@ import { ProductsModule } from './products/products.module';
       password: '123456',
       database: 'product_inventory_db',
       autoLoadEntities: true,
-      synchronize: true, // For development only
+      synchronize: true,
     }),
   ],
 })
